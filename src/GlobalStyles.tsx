@@ -4,11 +4,12 @@ const GlobalStyle = createGlobalStyle`
 
 
   :root {
-    --font-style: "Poppins", sans-serif;
+    --font-style: 'Archivo', sans-serif;
     --font-accent: "Josefin Sans", sans-serif;
     --secondary-color: #FFBCDC;
-    --accent-color: #80BBDC;
+    --accent-color: rgba(255, 255, 255, 0.5);
     --accent-font-color: black;
+    --decor-font-style: 'Spectral', serif;
   }
 
   * {

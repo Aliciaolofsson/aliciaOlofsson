@@ -6,22 +6,23 @@ const BookButton = styled.a`
   justify-content: center;
   align-items: center;
   border: solid 2px black;
-  padding: 1em;
-  border-radius: 5px;
-background-
+  padding: 0.6em 1.2em;
+  border-radius: 10px;
+background-color: transparent;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
 
   &:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--accent-color);
     transition: 0.1s ease-in-out;
+    cursor: pointer;
   }
 `;
 
 export default function NavButton() {
   return (
     <Link to="/contact">
-      <BookButton as="button">Get In Touch</BookButton>
+      <BookButton as="button">Contact</BookButton>
     </Link>
   );
 }
