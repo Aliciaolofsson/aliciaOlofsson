@@ -18,6 +18,10 @@ const SocialMediaContainer = styled.div`
   bottom: 1em;
   left: 0;
   right: 0;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
 `;
 
 const SocialMediaLink = styled.a`

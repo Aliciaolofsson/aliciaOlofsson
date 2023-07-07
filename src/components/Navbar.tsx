@@ -8,7 +8,6 @@ const DesktopNav = styled.nav`
   grid-template-columns: 2fr 1fr 2fr;
   align-items: center;
   padding: 2em 3em;
-  background: #ffffff58;
   @media screen and (max-width: 600px) {
     display: none;
   }

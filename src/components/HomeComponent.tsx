@@ -31,7 +31,6 @@ const AboutMe = styled.div`
   align-items: center;
   font-size: 18px;
   font-weight: 700;
-  background: white;
   height: 40vh;
 `;
 

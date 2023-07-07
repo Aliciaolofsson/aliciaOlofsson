@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import Navbar from "./Navbar";
+import Header from "./Header";
 import SocialMedia from "./SocialMedia";
 
 interface LayoutProps {
@@ -9,8 +9,7 @@ interface LayoutProps {
 
 const AppContainer = styled.div`
 height: 100%;
-background: rgb(237,242,255);
-background: linear-gradient(45deg, rgba(237,242,255,1) 0%, white 20%, rgba(244,229,255,1) 40%, rgba(206,209,295) 70%, rgba(230,245,255,1) 100%);
+background: ;
 `;
 
 const Layout = ({ children }: LayoutProps): JSX.Element => {
@@ -35,7 +34,7 @@ const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
     <AppContainer>
       <>
-        <Navbar />
+        <Header />
       </>
       <main className={`main-content ${isMenuOpen ? 'no-scroll' : ''}`}>{children}
       </main><SocialMedia />
