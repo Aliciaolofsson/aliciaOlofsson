@@ -30,7 +30,7 @@ const MobileMenuContainer = styled.div`
 
   @media (max-width: 600px) {
     display: block;
-  }c
+  }
 `;
 
 const MenuToggle = styled.button`

@@ -4,7 +4,6 @@ const Introduction = styled.div`
   display: flex;
   align-items: center;
   padding: 5em;
-
   h1 {
     border-radius: 15px;
     font-weight: 400;
@@ -22,6 +21,19 @@ const Introduction = styled.div`
     font-size: 1.8vw;
     line-height: 1.5em;
     margin-top: 1.5em;
+  }
+
+
+  @media (max-width: 600px) {
+    margin-top: 6em;
+    padding: 2em;
+
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 18px;
+    }
   }
 `;
 
